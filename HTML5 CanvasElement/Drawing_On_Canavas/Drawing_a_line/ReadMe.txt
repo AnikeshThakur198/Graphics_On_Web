@@ -25,3 +25,11 @@ METHODS USED TO DRAW A LINE USING HTML5 CANVAS:-
 	we can further extend the line by calling the same method again as
 	
 		c.lineTo(x3, y3);
+
+	after that we'll use the stroke() method to actually draw the path on the canvas.
+
+		c.stroke();
+
+	now in order to style the line we uses
+		
+		c.strokeStyle = "blue/whatever you like"
